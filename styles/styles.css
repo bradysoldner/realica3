@@ -1,0 +1,56 @@
+/*./styles.css*/
+/* color
+background-color
+font-size
+font-family
+font-weight
+font-style
+text-align
+text-decoration
+line-height
+letter-spacing
+width
+height
+max-width or min-width
+max-height or min-height */
+
+
+body{
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section > p,
+section > blockquote{
+    line-height: 1.2;
+}
+
+ul > li#fav-character{
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+#fav-movie{
+    font-style: italic;
+    text-decoration: underline;
+}
+
+h1{
+    text-align: center;
+}
+code{
+    letter-spacing: 0.07em;
+    font-family: 'Courier New', Courier, monospace;
+}
+section#character-section img
+section#movie-section img{
+   width: auto;
+   height: auto;
+   max-width: 100%;
+   min-height: 120px;
+}
